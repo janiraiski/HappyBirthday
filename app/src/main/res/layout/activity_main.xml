@@ -6,10 +6,20 @@ android:layout_width="match_parent"
 android:layout_height="match_parent"
 tools:context="com.example.raiski.happybirthday.MainActivity">
 
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/androidparty" />
+
 <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:paddingTop="16dp"
-    android:paddingLeft="16dp"
     android:text="Happy Birthday Annika!" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:text="From, Jani!" />
 </RelativeLayout>
